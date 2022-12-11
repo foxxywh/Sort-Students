@@ -3,8 +3,8 @@ var grades = [];
            var val = get_item_list(grades);
            //Add the appropriate id names to read scores, student_name
            document.getElementById("score").value = "";
-           document.getElementById("     ").value = val;
-           document.getElementById("     ").value = "";   
+           document.getElementById("student_name").value = val;
+           document.getElementById("score").value = "";   
            document.getElementById("student_name").focus();
         }    
         //Function to add last, first, score to studentGrade
@@ -55,7 +55,7 @@ var grades = [];
         var sort_click = function () 
         {
         //Add the sort() function to sort students by thier names
-        grades.        ();
+        grades.sort();
         update_scores();
         }
         
